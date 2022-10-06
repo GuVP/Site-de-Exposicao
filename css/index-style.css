@@ -1,0 +1,17 @@
+section {
+    padding-top: 1rem;
+}
+
+.titulo {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    color: brown;   
+}
+
+.subtitulo {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    color: brown;
+}
