@@ -1,0 +1,62 @@
+@media screen and (min-width: 800px){
+
+    .imageCollection {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .imageSpace {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20rem;
+        height: 20rem;
+        border-style: dotted;
+    }
+
+    .imageItemCollection {
+        width: 15rem;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 450px){
+
+    .imageCollection {
+        display: flex;
+        justify-content: center;
+        gap: 0.6rem;
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .imageSpace {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 7rem;
+        height: 7rem;
+        border-style: dotted;
+        background-color: rgb(224, 162, 162);
+    }
+
+    .imageItemCollection {
+        width: 5rem;
+        height: auto;
+    }
+}
+
+.junkFood {
+    background-color: rgb(224, 162, 162);
+}
+
+.vegetable {
+    background-color: rgb(192, 202, 102);
+}
+
+.fruits {
+    background-color: rgb(206, 135, 141);
+}

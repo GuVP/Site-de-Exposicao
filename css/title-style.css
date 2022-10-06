@@ -2,14 +2,14 @@ section {
     padding-top: 1rem;
 }
 
-.titulo {
+.title {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     justify-content: center;
     color: brown;   
 }
 
-.subtitulo {
+.subtitle {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     justify-content: center;

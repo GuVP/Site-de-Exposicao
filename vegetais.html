@@ -3,35 +3,65 @@
     <head>
         <meta charset="utf-8">
         <title>Tasty - Exposição de Alimentos</title>
+        
         <link rel="stylesheet" type="text/css" href="css/body-style.css">
         <link rel="stylesheet" type="text/css" href="css/nav-style.css">
+        <link rel="stylesheet" type="text/css" href="css/title-style.css">
+        <link rel="stylesheet" type="text/css" href="css/image-collection-style.css">
+        <link type="text/javascript" href="js/bodyChild.js">
     </head>
     <body>
         <nav>
             <img class="navImageItem" src="./assets/MinhaFoto.jpg">
             <ul>
                 <li class="navIndexItem">
-                    <a class="navLink" href="index.html" rel="noreferrer">Favoritos</a>
+                    <a class="navLink" href="index.html">Sobre</a>
                 </li>
                 <li class="navIndexItem">
                     <a class="navLink" href="frutas.html">Frutas</a>
                 </li>
                 <li class="navIndexItem">
-                    <a class="navLink">Vegetais</a>
-                </li>                
+                    <a class="navLink" href="vegetais.html">Vegetais</a>
+                </li>
+                <li class="navIndexItem">
+                    <a class="navLink" href="junkfood.html">Não Saudáveis</a>
+                </li>                              
             </ul>
             <div class="divNets">
                 <img class="navImageItem" src="./assets/MinhaFoto.jpg">
             </div>            
         </nav>
 
+        <section>
+            <div class="title">
+                <h2>
+                    Vegetais
+                </h2>                
+            </div>
+            <div class="subtitle">                                
+                <h3 class="sub">
+                    Estes são os vegetais que mais me agradam. Sou fã de brócolis!
+                </h3>
+            </div>
+        </section>
 
         <section>
-            <div class="galeriaImagens">
-                <div class="retratoImagem">
-                    <img >
+            <div class="imageCollection">                
+                <div class="imageSpace vegetable">
+                    <img class="imageItemCollection" src="./assets/Vegetais/Brocoliss.png">                    
+                </div>
+                <div class="imageSpace vegetable">
+                    <img class="imageItemCollection" src="./assets/Vegetais/Batata.png">
                 </div>                
-            </div>            
+            </div>
+            <div class="imageCollection">
+                <div class="imageSpace vegetable">
+                    <img class="imageItemCollection" src="./assets/Vegetais/Couve-flor.png">
+                </div>
+                <div class="imageSpace vegetable">
+                    <img class="imageItemCollection" src="./assets/Vegetais/Cenoura.png">
+                </div>
+            </div>
         </section>
     </body>
 </html>
