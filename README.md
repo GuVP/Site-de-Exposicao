@@ -15,4 +15,4 @@ A ideia dessa site é praticar o que tenho aprendido sobre HTML5, CSS3 e Javascr
  
  ## O que mais aprendi
   ### Imagens
-    Apesar de ser um site de estudo, construi seguindo padrões do desenvolvimento web, ou seja, respeitando as restrições de sites reais. Por conta disso, busquei imagens quadradas para padronizar a forma da apresentação. Além disso, reduzi suas dimensões e compactei-as sem perda de qualidade, obtendo imagens mais leves ou que melhoram a performance do site.
+    Apesar de ser um site de estudo, construi seguindo padrões do desenvolvimento web, ou seja, respeitando as restrições de sites reais. Por conta disso, busquei imagens quadradas para padronizar a forma da apresentação, reduzi suas dimensões e compactei-as sem perda de qualidade, obtendo imagens mais leves ou que melhoram a performance do site.
